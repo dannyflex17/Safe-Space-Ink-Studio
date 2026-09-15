@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Safe Space Ink Studio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0a0a0a;
+    color:white;
+}
+
+header{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
+    url("tattoo-background.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+header h1{
+    font-size:55px;
+    letter-spacing:2px;
+    color:#d4af37;
+}
+
+header p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.button{
+    display:inline-block;
+    background:#d4af37;
+    color:#000;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    color:#d4af37;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#171717;
+    padding:30px;
+    border-radius:15px;
+    line-height:1.7;
+}
+
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+
+.service{
+    background:#171717;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+
+.service h3{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+
+.gallery div{
+    height:200px;
+    background:#222;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#aaa;
+}
+
+
+footer{
+    text-align:center;
+    background:#050505;
+    padding:25px;
+    color:#aaa;
+}
+
+
+.contact a{
+    color:#d4af37;
+    text-decoration:none;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Safe Space Ink Studio</h1>
+
+<p>Your Vision. Our Art. Ink That Lasts a Lifetime.</p>
+
+<a href="#contact" class="button">Book Your Tattoo</a>
+
+</header>
+
+
+
+<section>
+
+<h2>About Us</h2>
+
+<div class="card">
+
+<p>
+Welcome to Safe Space Ink Studio, where every tattoo is more than ink — it's a story, a memory, and a masterpiece. We create custom artwork with creativity, precision, and passion in a clean, welcoming, and professional environment.
+
+Whether it's your first tattoo or an addition to your collection, we are dedicated to turning your ideas into timeless art you will proudly wear forever.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Custom Tattoos</h3>
+<p>Unique tattoo designs created around your personal story.</p>
+</div>
+
+
+<div class="service">
+<h3>Fine Line Tattoos</h3>
+<p>Clean, detailed, and elegant tattoo designs.</p>
+</div>
+
+
+<div class="service">
+<h3>Realism Tattoos</h3>
+<p>Beautiful realistic portraits and artwork.</p>
+</div>
+
+
+<div class="service">
+<h3>Cover Ups</h3>
+<p>Transform old tattoos into fresh new masterpieces.</p>
+</div>
+
+
+<div class="service">
+<h3>Tattoo Touch Ups</h3>
+<p>Restore and refresh your favorite designs.</p>
+</div>
+
+
+<div class="service">
+<h3>Consultations</h3>
+<p>Professional guidance from idea to final artwork.</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2>Our Portfolio</h2>
+
+<div class="gallery">
+
+<div>Tattoo Artwork 1</div>
+
+<div>Tattoo Artwork 2</div>
+
+<div>Tattoo Artwork 3</div>
+
+<div>Tattoo Artwork 4</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>Why Choose Safe Space Ink Studio?</h2>
+
+
+<div class="card">
+
+<p>
+At Safe Space Ink Studio, your comfort, safety, and satisfaction come first. We provide a welcoming creative space where every client feels respected and every tattoo receives professional attention to detail.
+
+Your story deserves artwork that lasts forever.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="contact">
+
+
+<h2>Book A Consultation</h2>
+
+
+<div class="card contact">
+
+
+<p>
+Ready to create your next masterpiece? Contact Safe Space Ink Studio today and let's bring your vision to life.
+</p>
+
+
+<br>
+
+
+<p>
+
+📞 Phone: <a href="tel:+12166667968">(216) 666-7968</a>
+
+<br><br>
+
+💬 WhatsApp: <a href="https://wa.me/2544005256">(254) 400-5256</a>
+
+<br><br>
+
+📧 Email: <a href="mailto:Akolgo0900@gmail.com">Akolgo0900@gmail.com</a>
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+© 2026 Safe Space Ink Studio — All Rights Reserved
+
+</footer>
+
+
+
+</body>
+
+</html>
